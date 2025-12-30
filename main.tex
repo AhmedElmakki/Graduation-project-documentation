@@ -1,0 +1,285 @@
+\documentclass[12pt, a4paper, oneside]{report}
+
+% --- 1. PREAMBLE (Packages & Settings) ---
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{float} % Required for precise image placement [H]
+\usepackage{booktabs}
+\geometry{margin=1in}
+ 
+% --- BIBLIOGRAPHY SETTINGS (IEEE Style) ---
+\usepackage{csquotes}
+\usepackage[style=ieee]{biblatex}
+\addbibresource{references.bib}
+
+\onehalfspacing % Set 1.5 line spacing
+
+\begin{document}
+
+% --- 2. TITLE PAGE ---
+\begin{titlepage}
+    \centering
+    \vspace*{0.5cm}
+    
+    % Ensure 'anu_logo.png' is uploaded to your Overleaf project
+    \includegraphics[width=0.4\textwidth]{anu_logo.png}\\[1cm] 
+    
+    {\Large \textbf{Alexandria National University}}\\[0.5cm]
+    {\large Faculty of Computers and Data Science}\\[2cm]
+    
+    \rule{\linewidth}{0.5mm} \\[0.4cm]
+    {\huge \textbf{WorkoutHacker:}}\\[0.4cm]
+    {\Large \textbf{An AI-Powered System for Maximizing Training Efficiency, Physical Gains, User Safety, And Privacy}} \\[0.4cm]
+    \rule{\linewidth}{0.5mm} \\[2cm]
+    
+    \textbf{Prepared by:}\\[0.5cm]
+    {\large Team 25}\\[2cm]
+    
+    \vfill
+    {\large Academic Year 2025/2026}
+\end{titlepage}
+
+% --- 3. PRELIMINARY PAGES ---
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+
+% --- 4. CHAPTER 1: INTRODUCTION ---
+\chapter{Introduction}
+
+\section{Background and Motivation}
+
+The rapid rise of fitness technology has improved general activity tracking \cite{2}, as Wearable Activity Trackers (WATs) have emerged as promising tools for enhancing health behaviors. The WAT market is experiencing rapid growth, valued at US \$53.94 billion in 2023 and projected to reach US \$290.85 billion by 2032 \cite{1}. These devices outperform self-report assessments in terms of validity and reliability \cite{2}. However, most solutions still fail to address the critical issues of resistance training: incorrect form, unnoticed muscle imbalances, and lack of real-time coaching. While nearly all commercially available resistance tracking apps only record trivial data via manual user input—a level of functionality not far from a pen and paper—research shows that literacy regarding training forms is inadequate, with overall accuracy remaining below 50\% \cite{9}. This leads to a large percentage of gym-goers performing lifts with improper technique, resulting in chronic injuries and long-term plateaus.
+
+At the same time, gym-goers rely heavily on guesswork to judge training intensity, often stopping too early or pushing beyond safe fatigue levels. While supervised resistance training offers advantages in muscle hypertrophy and technique, fatigue is associated with an increased risk of acute injuries and chronic pain. With the growing demand for accurate, data-driven exercise guidance—which jumped to \#7 in the 2025 fitness trends—there is a clear need for real-time data to tailor sessions and increase safety \cite{3}. This motivated our team to develop an IoT-based wearable that uses EMG, IMU, and Computer Vision fusion to monitor muscle activation and body movement in real time \cite{4}. By providing real-time, data-driven coaching and fatigue detection, the system aims to make resistance training safer, more efficient, and scientifically optimized for every user.
+
+\section{Problem Statement}
+Traditional resistance training lacks an objective, real-time method for detecting poor form, unsafe movement patterns, and inadequate muscle activation. Current consumer wearables track general metrics such as steps or heart rate, but they cannot evaluate biomechanical accuracy or identify when a muscle is approaching optimal fatigue. A significant factor in this gap is that most individuals do not have access to a personal trainer to supervise the training process, which results in compromised effectiveness and an increased risk of injury. 
+
+The lack of professional oversight is evidenced by the fact that the proportion of people who register for private training in fitness clubs is currently low, accounting for approximately 10\% of the total number of members \cite{7}. This is further corroborated by our internal survey results, which indicate that 49.6\% of respondents train solo \cite{8}. Furthermore, current AI-powered wearables rely heavily on cloud computing, leading to latency issues and potential security vulnerabilities. There is a need for a system that utilizes Edge AI technology \cite{4} to process data locally for faster, more secure decision-making.
+
+\section{Importance and Goals of the Project}
+Resistance training is essential for physical health, yet it is prone to injury when performed with incorrect form. Existing fitness devices fail to guide users during the critical moment of exercise, instead focusing on general health metrics. Advancements in AI and edge computing are expected to enhance wearable capabilities, specifically through AI-driven injury prevention models that analyze movement patterns and neuromuscular fatigue \cite{5}. Additionally, developing cost-effective and scalable solutions is essential to ensure these innovations benefit a broader range of athletes \cite{6}.
+
+The primary goal of this project is to develop an intelligent IoT wearable that provides immediate prescriptive coaching. The system aims to:
+\begin{itemize}
+    \item Develop an IoT wearable integrating EMG, IMU, and Computer Vision for real-time analysis.
+    \item Provide real-time, data-driven coaching to correct form errors and reduce injury risk.
+    \item Use Edge AI to ensure data privacy and reduce latency by processing data locally \cite{4}.
+    \item Implement AI-driven injury prevention models that analyze movement patterns \cite{5}.
+    \item Address accessibility issues by developing a cost-effective solution for amateur athletes \cite{6}.
+\end{itemize}
+
+\section{Surveys, Questionnaires, Interviews, and Discussion of Results}
+To validate the market need and refine the system requirements for WorkoutHacker, a comprehensive quantitative survey was conducted. The research aimed to investigate user needs, exercise behaviors, and privacy preferences to inform the development of a privacy-focused fitness solution.
+
+\subsubsection{Methodology and Demographics}
+The survey gathered responses from \textbf{136 participants} to assess the viability of an AI-powered resistance training assistant. The demographic analysis revealed a clear concentration of young adults, with \textbf{77.2\%} of respondents falling within the 18-25 age bracket. This validates the target demographic as tech-savvy, fitness-conscious users who are comfortable with mobile applications. The lack of representation from older demographics (only 5.9\% from the 35-44 group) suggests that the initial product launch should aggressively target university-aged individuals and young professionals who are already early adopters of technology.
+
+\subsubsection{Key Findings: Exercise Behavior and Market Opportunity}
+The results highlighted a significant "Consistency Crisis" in current fitness habits that WorkoutHacker aims to address.
+\begin{itemize}
+    \item \textbf{Consistency Challenges:} A combined \textbf{79.4\%} of respondents reported struggling with consistency. Specifically, 58.1\% described their exercise habits as "irregular" or "stopped," while 21.3\% were not exercising at all. This identifies the primary pain point not as a lack of ability, but as a lack of sustained motivation and guidance.
+    \item \textbf{Strong Market Fit:} The proposed solution received exceptional validation, with \textbf{94.1\%} of respondents rating the project as useful. Furthermore, \textbf{61\%} expressed a definite willingness to adopt the application immediately upon release. An additional 38.2\% indicated they "maybe" would use it, representing a massive convertible market segment that could be won over with free trials or feature demonstrations.
+\end{itemize}
+
+\subsubsection{Privacy and Technical Requirements Analysis}
+A critical objective of the research was to quantify the user's trade-off between AI accuracy and data privacy. The findings were decisive and directly influenced the system's architectural decisions:
+\begin{itemize}
+    \item \textbf{Local Storage Preference:} \textbf{79.4\%} of users explicitly preferred keeping their data stored locally on their phone rather than on external servers. This overwhelming preference validates the project's core requirement for \textbf{Edge AI} rather than cloud-dependent processing.
+    \item \textbf{Camera vs. Privacy Trade-off:} Despite the potential for higher accuracy with camera tracking, \textbf{53.7\%} of users preferred a "Camera OFF" mode. This indicates that for the majority of users, privacy concerns outweigh the benefits of visual form correction.
+\end{itemize}
+
+\subsubsection{Discussion of Results and Design Implications}
+The survey data confirms that while there is a high demand for AI-driven coaching, it must not come at the cost of user privacy. The widespread struggle with consistency (79.4\%) underscores the need for "gamification" and real-time feedback features to keep users engaged.
+
+Most critically, the split preference regarding camera usage necessitated a flexible system design. Consequently, WorkoutHacker was architected to be fully functional \textit{without} compromising the user's Privacy. By censoring and anonymizing the user's features, the system can provide high-fidelity tracking and fatigue analysis, ensuring inclusivity for the 53.7\% of privacy-conscious users while still offering advanced visual correction while ensuring that all the processing will happen locally essentially eliminating the user's privacy concerns about the camera as a whole
+
+
+
+% --- 5. CHAPTER 2: RELATED WORK ---
+\chapter{Related Work}
+
+\section{Current Commercial Solutions and Limitations}
+The current landscape of resistance training applications is largely dominated by manual tracking systems. Nearly all commercially available apps record only trivial data, such as exercise weight and repetition counts, relying on manual user input—a level of functionality comparable to pen and paper. While creating automated tracking for the vast array of resistance exercises is difficult, the reliance on tedious manual interaction remains a significant barrier to user engagement.
+
+A critical feature often missing is automatic form analysis. Gray et al. (2015) indicated that 36.2\% of gym injuries are caused by overexertion or unnatural movement \cite{10}. Beyond injury prevention, proper form is essential for maximizing muscle gain and mitigating "gymtimidation". Existing alternatives like personal trainers are cost-prohibitive, and video tutorials lack feedback mechanisms, often leading users to incorrectly believe they are performing exercises safely.
+
+Several systems have attempted to bridge this gap. \textit{FormCoach} utilizes computer vision and LLMs for form correction but compromises privacy and suffers from occlusion. \textit{LEAN} provides iPhone/Apple Watch-based tracking with machine learning metrics but is limited to Apple hardware. LEAN employs Random Forests with heavy feature engineering for classification but notes that developing a general algorithm for all exercise types is non-trivial.
+
+\subsection{Sensing Modalities: Vision vs. Wearables}
+Action Quality Assessment (AQA) typically relies on RGB cameras or wearable sensors.
+
+\textbf{Vision-Based Approaches:} RGB cameras are affordable but face challenges with occlusion, depth ambiguity, and privacy. Studies utilizing models like BlazePose have achieved high accuracy in exercise recognition, though depth estimation remains less accurate. While pre-trained backbones like MediaPipe extract robust features, they often omit critical temporal information.
+
+\textbf{Sensor-Based Approaches:} Wearables (IMU, sEMG) provide precise, viewpoint-independent data \cite{11, 12}. Integrating these can resolve visual ambiguities. However, multi-sensor setups are expensive; a high-fidelity setup (e.g., 16 sEMG, 6 IMU) can exceed \$1,000, making them inaccessible to average users \cite{6}.
+
+
+\subsection{Physiology of Fatigue and Hypertrophy}
+Neuromuscular fatigue is categorized into Central Nervous System (CNS) and Peripheral Nervous System (PNS) fatigue, both impacting hypertrophy. Ventilatory and cardiovascular responses are regulated by two systems: a "central command" feedforward mechanism and a feedback mechanism triggered by muscle contraction.
+
+Fatigue quantification relies on:
+\begin{itemize}
+    \item \textbf{Velocity Loss:} A 40\% velocity loss maximizes muscle size (hypertrophy), while a 20\% loss maximizes athletic performance. This metric correlates with metabolic markers like blood lactate.
+    \item \textbf{EMG Signals:} Fatigue increases signal amplitude and decreases the Mean Power Frequency (MPF) \cite{16, 21}.
+    \item \textbf{Rest Intervals:} Longer intervals (3--5 minutes) yield higher repetition counts and training volumes compared to 1-minute intervals, favoring hypertrophic outcomes.
+\end{itemize}
+
+\subsection{Signal Processing and Tempo Classification}
+Robust processing is required to handle noisy sensor data.
+\begin{itemize}
+    \item \textbf{Filtering:} Band-pass filters (20--450 Hz) are standard for EMG \cite{21}. Savitzky-Golay filters are preferred for smoothing peaks without distortion \cite{24}, while wavelet denoising handles non-stationary sEMG signals \cite{22}. Adaptive Component Analysis (ACA) and Kalman filtering are also used for denoising \cite{23}.
+    \item \textbf{Repetition Counting:} Common methods include counting peaks/troughs \cite{15} or using CNNs to detect repetition starts \cite{19}. However, CNNs often require separate training for each exercise, and many methods only count repetitions post-workout \cite{13}.
+    \item \textbf{Tempo Classification Pipeline:} The literature follows a three-stage pipeline: 1) \textit{Segmentation} (finding start/end times), 2) \textit{Temporal Feature Extraction} (duration, phase ratios), and 3) \textit{Decision Module} (rule-based or ML classifiers) \cite{13, 15}.
+    \item \textbf{Machine Learning:} Random Forests and SVMs are robust and interpretable \cite{14}. For temporal patterns, sequence models like 1D-CNNs and LSTMs are effective \cite{19}.
+\end{itemize}
+
+\section{Currently Available Solutions (Applications) and Features Matrix}
+Existing solutions in the market generally fall into two categories: generic commercial wearables (focused on cardio and recovery) and niche research applications (focused on form). A critical analysis shows that current market leaders like Whoop and Apple Watch operate primarily in a \textit{descriptive} mode—summarizing 24/7 activity and sleep—rather than providing the \textit{prescriptive}, real-time coaching required during the critical hour of strength training.
+
+While research prototypes like FormCoach and LEAN attempt to address exercise form, they face significant limitations. FormCoach relies on computer vision and cloud-based LLMs, introducing privacy risks and occlusion vulnerabilities \cite{source:3, source:4}. LEAN, while effective, is restricted exclusively to the Apple ecosystem and lacks direct muscle activation data (EMG), limiting its ability to detect physiological fatigue \cite{source:18}.
+
+Table \ref{tab:feature_matrix} illustrates the competitive landscape, highlighting the unmatched advantage of fusing EMG, IMU, and Computer Vision for real-time strength coaching.
+
+\begin{table}[H]
+    \centering
+    \caption{Comparison of WorkoutHacker against Research and Commercial Solutions}
+    \label{tab:feature_matrix}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{Feature} & \textbf{\begin{tabular}[c]{@{}c@{}}WorkoutHacker\\ (Ours)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}FormCoach\\ (Research)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}LEAN\\ (App)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Whoop / Apple Watch\\ (Commercial)\end{tabular}} \\ \hline
+    \textbf{Primary Goal} & \begin{tabular}[c]{@{}c@{}}Exercise Quality \&\\ Real-Time Coaching\end{tabular} & \begin{tabular}[c]{@{}c@{}}Form Correction\\ via Vision\end{tabular} & \begin{tabular}[c]{@{}c@{}}Tracker for\\ Apple Users\end{tabular} & \begin{tabular}[c]{@{}c@{}}Recovery, Sleep, \&\\ General Activity\end{tabular} \\ \hline
+    \textbf{Target Use} & \textbf{During Strength Workout} & Home Exercise & Gym/Apple Watch & 24/7 Monitoring \\ \hline
+    \textbf{Real-Time Form Feedback} & \textbf{Yes (IMU, Vision, Audio)} & Yes (Vision only) & Yes (IMU only) & No \\ \hline
+    \textbf{Muscle Fatigue Warning} & \textbf{Yes (Scientific EMG)} & No & No & No \\ \hline
+    \textbf{Privacy Processing} & \textbf{Edge AI (Local)} & Cloud (High Risk) & Local & Cloud Dependent \\ \hline
+    \textbf{Sensor Modalities} & \textbf{EMG + IMU + Vision} & Camera Only & IMU Only & PPG (Heart Rate) + IMU \\ \hline
+    \end{tabular}%
+    }
+\end{table}
+
+As shown in the matrix:
+\begin{itemize}
+    \item \textbf{Commercial Leaders (Whoop, Fitbit, Apple Watch):} Excel at sleep and cardiovascular tracking but fail to provide granular feedback on lifting mechanics or localized muscle fatigue.
+    \item \textbf{Research Solutions (FormCoach, LEAN):} Lack the multi-sensor fusion (specifically EMG) necessary to distinguish between simple movement execution and safe, effective muscle loading.
+    \item \textbf{WorkoutHacker:} Fills this gap by focusing on the "critical hour" of training, offering unique values such as scientific fatigue warnings and privacy-preserving Edge processing.
+\end{itemize}
+
+\section{Tools Background}
+Based on the gaps identified in current research, the WorkoutHacker system utilizes a specific technological stack designed for real-time, data-driven coaching \cite{4}. To achieve high-fidelity tracking, the system combines data from four distinct input sources, employing advanced signal processing to ensure data integrity:
+
+\begin{itemize}
+    \item \textbf{Surface EMG:} Used to measure muscle activation levels directly from the skin surface, allowing the system to quantify effort and detect neuromuscular fatigue \cite{21}. To mitigate noise and artifacts, raw signals are processed using \textbf{Wavelet Denoising} before analysis.
+    \item \textbf{IMU Sensors:} A combination of accelerometers, gyroscopes, and magnetometers tracks body movement, speed, orientation, and stability in three-dimensional space \cite{12}. The system utilizes \textbf{Kalman Filtering} to fuse these sensor inputs, effectively removing noise and preventing drift.
+    \item \textbf{Visual Input:} Computer vision utilizes \textbf{MediaPipe} to extract skeletal landmarks for validating joint angles and checking posture. Form correctness is evaluated using a \textbf{Random Forest} classifier trained on skeletal data, with a \textbf{Rule-Based} fallback mechanism implemented for exercises with insufficient training data.
+    \item \textbf{Voice Interaction:} The system integrates \textbf{Vosk} for offline speech recognition, enabling low-latency voice commands without requiring internet connectivity.
+\end{itemize}
+
+The core of the system is a sophisticated fusion and detection pipeline designed to process these inputs locally:
+
+\subsection{Repetition Detection and Signal Processing}
+To accurately detect repetitions and movement phases, the system applies a robust signal processing chain:
+\begin{enumerate}
+    \item \textbf{Signal Conditioning:} Multi-axis sensor data is simplified via \textbf{Vector Magnitude Calculation}, followed by \textbf{Mean Subtraction} to remove gravity offsets.
+    \item \textbf{Filtering:} \textbf{Low-Pass Filtering} is applied to suppress high-frequency noise, while \textbf{Band-Pass Filtering} isolates frequency ranges specific to exercise motion.
+    \item \textbf{Feature Extraction:} The system uses \textbf{Signal Rectification} and \textbf{Envelope Extraction} to highlight intensity patterns and smooth amplitude over time.
+\end{enumerate}
+
+\subsection{Fusion and Decision Logic}
+Processed signals are analyzed using a hybrid decision engine:
+\begin{itemize}
+    \item \textbf{Event Detection:} \textbf{Peak Detection} identifies significant motion events or muscle activation bursts.
+    \item \textbf{Sensor Fusion:} A combination of \textbf{Rule-Based Fusion} (using logical conditions) and \textbf{Fuzzy Logic Fusion} (using graded membership rules) integrates inputs to handle uncertainty.
+    \item \textbf{Validation:} Strict \textbf{Thresholding} based on amplitude, duration, and consistency distinguishes valid exercise repetitions from random noise.
+\end{itemize}
+
+\section{Proposed System Approach}
+To address the technical gaps and safety concerns identified in current resistance training research, WorkoutHacker implements a specialized technological stack focused on speed, privacy, and biomechanical accuracy.
+
+\subsection{Computer Vision and Sensor Fusion}
+While traditional consumer wearables rely only on general metrics, our system employs a fusion of Electromyography (EMG), Inertial Measurement Units (IMU), and Computer Vision. This combination allows the system to monitor muscle activation and body movement simultaneously, providing a holistic view of the user's biomechanics that sensors alone cannot achieve \cite{4}.
+
+\subsection{Edge AI and Local Processing}
+To address the latency and privacy concerns prevalent in cloud-dependent wearables, the system utilizes Edge AI technology \cite{4}. By processing data locally on the device itself, WorkoutHacker enables faster, more secure, and real-time decision-making for gym-goers without requiring constant cloud access or risking data security vulnerabilities.
+
+\subsection{Real-Time, Data-Driven Coaching}
+Moving beyond simple tracking, the project implements a prescriptive coaching model described as real-time, and data-driven coaching. This approach uses AI-driven injury prevention algorithms to analyze real-time data streams—including movement patterns, force distribution, and neuromuscular fatigue—to predict risks before they occur \cite{5}. By identifying these patterns, the system generates personalized intervention strategies, reducing the likelihood of muscle strains and ligament tears.
+
+\subsection{Accessibility and Scalability}
+Recognizing that the high cost of advanced sports wearables often limits widespread use, the project focuses on developing cost-effective and scalable solutions \cite{6}. This ensures that innovations in AI-driven analytics benefit a broader range of athletes, regardless of their level of competition or program funding.
+
+
+% --- 6. CHAPTER 3: REQUIREMENTS ANALYSIS ---
+\chapter{Requirements Analysis}
+
+\section{Business Requirements Identification}
+The core requirement is to deliver a solution that fuses EMG, IMU, and visual information to analyze exercise performance with biomechanical precision while ensuring local privacy.
+
+\section{Functional Requirements}
+\begin{enumerate}
+    \item \textbf{Exercise Recognition:} Identify the exercise type using IMU and pose landmarks.
+    \item \textbf{Fatigue Detection:} Monitor muscle fatigue using EMG features (RMS, MDF).
+    \item \textbf{Real-Time Feedback:} Provide corrective alerts with latency under 700ms.
+\end{enumerate}
+
+\section{Non-Functional Requirements}
+\begin{itemize}
+    \item \textbf{Security:} All sensor data must be processed locally.
+    \item \textbf{Performance:} Feedback must be near-instantaneous.
+\end{itemize}
+
+% --- 7. CHAPTER 4: SYSTEM DESIGN ---
+\chapter{System Design}
+
+\section{System Architecture}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\linewidth]{"diagrams/block diagrams/block diagram with colors improved.png"}
+    \caption{System Block Diagram.}
+\end{figure}
+
+\section{Sequence Diagrams}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth, height=8cm, keepaspectratio]{"diagrams/Sequence Diagrams/Sequence Diagram 1.png"}
+    \caption{Sequence Diagram: Initialization.}
+\end{figure}
+
+\section{Entity Relationship Diagram (ERD)}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth, height=8cm, keepaspectratio]{"diagrams/ERD Diagrams/ERD 1.png"}
+    \caption{System ERD.}
+\end{figure}
+
+\section{Data Flow Diagrams (DFD)}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth, height=8cm, keepaspectratio]{"diagrams/DFD Diagrams/DFD level 0.png"}
+    \caption{DFD Level 0: Context Diagram.}
+\end{figure}
+
+\section{User Interface Design}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth, height=10cm, keepaspectratio]{"diagrams/User interface/gymhacker.png"}
+    \caption{User Interface Design.}
+\end{figure}
+
+% --- 8. CHAPTER 5: CONCLUSION ---
+\chapter{Conclusion}
+The WorkoutHacker system addresses a critical gap in the fitness industry by providing real-time, prescriptive coaching through the fusion of EMG, IMU, and Computer Vision. By prioritizing Edge AI, the system ensures that user training remains both scientifically optimized and strictly private. Future work will focus on expanding the exercise library and ining the fatigue prediction models.
+
+% --- 9. ERENCES ---
+\newpage
+\printbibliography[title={References}]
+
+\end{document}
