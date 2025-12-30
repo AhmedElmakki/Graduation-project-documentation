@@ -1,40 +1,22 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[131] biber-MSWIN64:342> INFO - === 
-[163] Biber.pm:421> INFO - Reading 'main.bcf'
-[252] Biber.pm:1002> INFO - Found 24 citekeys in bib section 0
-[272] Biber.pm:4487> INFO - Processing section 0
-[280] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[531] bibtex.pm:1713> INFO - LaTeX decoding ...
-[543] bibtex.pm:1519> INFO - Found BibTeX data source 'C:/Users/JakeDomain/AppData/Local/Programs/MiKTeX/bibtex/bib/feupphdteses/references.bib'
-[554] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[554] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[554] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[554] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[555] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[555] bbl.pm:779> INFO - Output to main.bbl
-[555] Biber.pm:132> WARN - I didn't find a database entry for '2' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '1' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '9' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '3' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '4' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '7' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '8' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '5' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '6' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '10' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '11' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '12' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '16' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '21' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '24' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '22' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '23' (section 0)
-[555] Biber.pm:132> WARN - I didn't find a database entry for '15' (section 0)
-[556] Biber.pm:132> WARN - I didn't find a database entry for '19' (section 0)
-[556] Biber.pm:132> WARN - I didn't find a database entry for '13' (section 0)
-[556] Biber.pm:132> WARN - I didn't find a database entry for '14' (section 0)
-[556] Biber.pm:132> WARN - I didn't find a database entry for 'source:3' (section 0)
-[556] Biber.pm:132> WARN - I didn't find a database entry for 'source:4' (section 0)
-[556] Biber.pm:132> WARN - I didn't find a database entry for 'source:18' (section 0)
-[556] Biber.pm:134> INFO - WARNINGS: 24
+[85] biber-MSWIN64:342> INFO - === 
+[113] Biber.pm:421> INFO - Reading 'main.bcf'
+[199] Biber.pm:1002> INFO - Found 24 citekeys in bib section 0
+[210] Biber.pm:4487> INFO - Processing section 0
+[219] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[293] bibtex.pm:1713> INFO - LaTeX decoding ...
+[306] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[380] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[380] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[380] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[381] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[388] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[394] bbl.pm:779> INFO - Output to main.bbl
+[394] Biber.pm:132> WARN - I didn't find a database entry for '24' (section 0)
+[394] Biber.pm:132> WARN - I didn't find a database entry for '22' (section 0)
+[394] Biber.pm:132> WARN - I didn't find a database entry for '23' (section 0)
+[394] Biber.pm:132> WARN - I didn't find a database entry for 'source:3' (section 0)
+[394] Biber.pm:132> WARN - I didn't find a database entry for 'source:4' (section 0)
+[394] Biber.pm:132> WARN - I didn't find a database entry for 'source:18' (section 0)
+[394] Biber.pm:134> INFO - WARNINGS: 6

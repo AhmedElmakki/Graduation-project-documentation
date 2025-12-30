@@ -16,5 +16,440 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{2}{report}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Wearable Activity Tracker Market Analysis and Trends}
+      \field{type}{Market Report}
+      \field{year}{2024}
+    \endentry
+    \entry{1}{article}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Technology}
+      \field{title}{Validity and reliability of wearable activity trackers in health surveillance}
+      \field{volume}{12}
+      \field{year}{2023}
+      \field{pages}{45\bibrangedash 58}
+      \range{pages}{14}
+    \endentry
+    \entry{9}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=c7c0b554750fb785ce6a9f269fecc721}{%
+           family={Bernardes},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{6eb7c04261f09d4f4d5c122e6ef95fbe}
+      \strng{fullhash}{6eb7c04261f09d4f4d5c122e6ef95fbe}
+      \strng{fullhashraw}{6eb7c04261f09d4f4d5c122e6ef95fbe}
+      \strng{bibnamehash}{6eb7c04261f09d4f4d5c122e6ef95fbe}
+      \strng{authorbibnamehash}{6eb7c04261f09d4f4d5c122e6ef95fbe}
+      \strng{authornamehash}{6eb7c04261f09d4f4d5c122e6ef95fbe}
+      \strng{authorfullhash}{6eb7c04261f09d4f4d5c122e6ef95fbe}
+      \strng{authorfullhashraw}{6eb7c04261f09d4f4d5c122e6ef95fbe}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Sports Management Review}
+      \field{title}{Accessibility and Economic Barriers in Advanced Sports Wearables}
+      \field{year}{2025}
+    \endentry
+    \entry{3}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=83825e629a3e02dacc1f648dc81c40e4}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c5900f7dfd99883f762cda353317300c}{%
+           family={Finch},
+           familyi={F\bibinitperiod},
+           given={C.\bibnamedelimi F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{fullhash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{fullhashraw}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{bibnamehash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{authorbibnamehash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{authornamehash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{authorfullhash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{authorfullhashraw}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Strength and Conditioning Research}
+      \field{title}{Literacy Regarding Training Forms and Movements: A Cross-Sectional Study}
+      \field{year}{2024}
+    \endentry
+    \entry{4}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1b82d66346b3b0c70366c1140be492c1}{%
+           family={{ACSM}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b82d66346b3b0c70366c1140be492c1}
+      \strng{fullhash}{1b82d66346b3b0c70366c1140be492c1}
+      \strng{fullhashraw}{1b82d66346b3b0c70366c1140be492c1}
+      \strng{bibnamehash}{1b82d66346b3b0c70366c1140be492c1}
+      \strng{authorbibnamehash}{1b82d66346b3b0c70366c1140be492c1}
+      \strng{authornamehash}{1b82d66346b3b0c70366c1140be492c1}
+      \strng{authorfullhash}{1b82d66346b3b0c70366c1140be492c1}
+      \strng{authorfullhashraw}{1b82d66346b3b0c70366c1140be492c1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACSMs Health \& Fitness Journal}
+      \field{title}{Top 20 Fitness Trends for 2025}
+      \field{year}{2025}
+    \endentry
+    \entry{7}{misc}{}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{note}{Internal Research Data}
+      \field{title}{Survey on Solo Training Habits among Resistance Training Practitioners}
+      \field{year}{2025}
+    \endentry
+    \entry{8}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=d823b8a269f10d4c306dc4a7c0f0c039}{%
+           family={Gascón},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8faab239df824584e62c93b1706447d8}
+      \strng{fullhash}{8faab239df824584e62c93b1706447d8}
+      \strng{fullhashraw}{8faab239df824584e62c93b1706447d8}
+      \strng{bibnamehash}{8faab239df824584e62c93b1706447d8}
+      \strng{authorbibnamehash}{8faab239df824584e62c93b1706447d8}
+      \strng{authornamehash}{8faab239df824584e62c93b1706447d8}
+      \strng{authorfullhash}{8faab239df824584e62c93b1706447d8}
+      \strng{authorfullhashraw}{8faab239df824584e62c93b1706447d8}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sports Medicine Open}
+      \field{title}{{AI}-driven Injury Prevention Models using Real-time Data Streams}
+      \field{year}{2025}
+    \endentry
+    \entry{5}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6c72831a314bee50d394cb3af13fb87b}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c72831a314bee50d394cb3af13fb87b}
+      \strng{fullhash}{6c72831a314bee50d394cb3af13fb87b}
+      \strng{fullhashraw}{6c72831a314bee50d394cb3af13fb87b}
+      \strng{bibnamehash}{6c72831a314bee50d394cb3af13fb87b}
+      \strng{authorbibnamehash}{6c72831a314bee50d394cb3af13fb87b}
+      \strng{authornamehash}{6c72831a314bee50d394cb3af13fb87b}
+      \strng{authorfullhash}{6c72831a314bee50d394cb3af13fb87b}
+      \strng{authorfullhashraw}{6c72831a314bee50d394cb3af13fb87b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Science in Sport}
+      \field{title}{Edge {AI} for Real-time Athletic Decision Making}
+      \field{year}{2025}
+    \endentry
+    \entry{6}{article}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Fitness Economics}
+      \field{title}{Statistical Analysis of Private Training Registration in Fitness Clubs}
+      \field{volume}{8}
+      \field{year}{2024}
+      \field{pages}{22\bibrangedash 30}
+      \range{pages}{9}
+    \endentry
+    \entry{10}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=83825e629a3e02dacc1f648dc81c40e4}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c5900f7dfd99883f762cda353317300c}{%
+           family={Finch},
+           familyi={F\bibinitperiod},
+           given={C.\bibnamedelimi F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{fullhash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{fullhashraw}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{bibnamehash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{authorbibnamehash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{authornamehash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{authorfullhash}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \strng{authorfullhashraw}{b61a8f34ef21c473d7b81d251bdaa90a}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research in Sports Medicine}
+      \field{number}{4}
+      \field{title}{Epidemiology of hospital-treated injuries sustained by fitness participants}
+      \field{volume}{23}
+      \field{year}{2015}
+      \field{pages}{353\bibrangedash 362}
+      \range{pages}{10}
+    \endentry
+    \entry{11}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=32c575590c3e6521537cdae5efd16ff0}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fc7503ab250ef7ecd3fa344cacd9b7e5}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fcda0545a5f328e37c0c28543f3aab3}
+      \strng{fullhash}{0fcda0545a5f328e37c0c28543f3aab3}
+      \strng{fullhashraw}{0fcda0545a5f328e37c0c28543f3aab3}
+      \strng{bibnamehash}{0fcda0545a5f328e37c0c28543f3aab3}
+      \strng{authorbibnamehash}{0fcda0545a5f328e37c0c28543f3aab3}
+      \strng{authornamehash}{0fcda0545a5f328e37c0c28543f3aab3}
+      \strng{authorfullhash}{0fcda0545a5f328e37c0c28543f3aab3}
+      \strng{authorfullhashraw}{0fcda0545a5f328e37c0c28543f3aab3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biomedical Signal Processing and Control}
+      \field{title}{Human motion tracking for rehabilitation—A survey}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+    \endentry
+    \entry{12}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=719937a0af0ec7f4e2c2379b8822fc22}{%
+           family={Seuter},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddca4c91d610a2d0d1f3455181934588}
+      \strng{fullhash}{ddca4c91d610a2d0d1f3455181934588}
+      \strng{fullhashraw}{ddca4c91d610a2d0d1f3455181934588}
+      \strng{bibnamehash}{ddca4c91d610a2d0d1f3455181934588}
+      \strng{authorbibnamehash}{ddca4c91d610a2d0d1f3455181934588}
+      \strng{authornamehash}{ddca4c91d610a2d0d1f3455181934588}
+      \strng{authorfullhash}{ddca4c91d610a2d0d1f3455181934588}
+      \strng{authorfullhashraw}{ddca4c91d610a2d0d1f3455181934588}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the International Conference on Motion in Games}
+      \field{title}{Motion capture using inertial measurement units}
+      \field{year}{2016}
+    \endentry
+    \entry{16}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f881163ea1f58f359a0acda658f0b8c5}{%
+           family={Ara},
+           familyi={A\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{f881163ea1f58f359a0acda658f0b8c5}
+      \strng{fullhash}{f881163ea1f58f359a0acda658f0b8c5}
+      \strng{fullhashraw}{f881163ea1f58f359a0acda658f0b8c5}
+      \strng{bibnamehash}{f881163ea1f58f359a0acda658f0b8c5}
+      \strng{authorbibnamehash}{f881163ea1f58f359a0acda658f0b8c5}
+      \strng{authornamehash}{f881163ea1f58f359a0acda658f0b8c5}
+      \strng{authorfullhash}{f881163ea1f58f359a0acda658f0b8c5}
+      \strng{authorfullhashraw}{f881163ea1f58f359a0acda658f0b8c5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Journal of Medical Research}
+      \field{title}{Denoising and Analysis of EMG Signal using Wavelet Transform}
+      \field{year}{2020}
+    \endentry
+    \entry{21}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=942d70459d213f042fd9290ea8df67d0}{%
+           family={Ashraf},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{264d8145e2f155fe92a8b3217cec4f1e}
+      \strng{fullhash}{264d8145e2f155fe92a8b3217cec4f1e}
+      \strng{fullhashraw}{264d8145e2f155fe92a8b3217cec4f1e}
+      \strng{bibnamehash}{264d8145e2f155fe92a8b3217cec4f1e}
+      \strng{authorbibnamehash}{264d8145e2f155fe92a8b3217cec4f1e}
+      \strng{authornamehash}{264d8145e2f155fe92a8b3217cec4f1e}
+      \strng{authorfullhash}{264d8145e2f155fe92a8b3217cec4f1e}
+      \strng{authorfullhashraw}{264d8145e2f155fe92a8b3217cec4f1e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SCITEPRESS}
+      \field{title}{Comparison of Machine Learning Algorithms for Human Activity Recognition}
+      \field{year}{2023}
+    \endentry
+    \entry{15}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c194dd7e01645b69b013d2344ec08c8a}{%
+           family={Rawash},
+           familyi={R\bibinitperiod},
+           given={Y.\bibnamedelimi Z.},
+           giveni={Y\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=8bfea6d951f3bc9d883032cb4babe652}{%
+           family={Al-Naami},
+           familyi={A\bibinithyphendelim N\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c0ef037eb0dd27e245ec704713158ecd}{%
+           family={Alfraihat},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=283cdf2ce97085d33a85de3dd01a1626}{%
+           family={Abu\bibnamedelima Owida},
+           familyi={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{aaae8ada5b33d9b8345d0f5e40afd608}
+      \strng{fullhash}{0054ebcaf62783feb7811fce648028d4}
+      \strng{fullhashraw}{0054ebcaf62783feb7811fce648028d4}
+      \strng{bibnamehash}{0054ebcaf62783feb7811fce648028d4}
+      \strng{authorbibnamehash}{0054ebcaf62783feb7811fce648028d4}
+      \strng{authornamehash}{aaae8ada5b33d9b8345d0f5e40afd608}
+      \strng{authorfullhash}{0054ebcaf62783feb7811fce648028d4}
+      \strng{authorfullhashraw}{0054ebcaf62783feb7811fce648028d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MMEP}
+      \field{title}{Advanced Low-Pass Filters for Signal Processing: A Comparative Study on Gaussian, Mittag-Leffler, and Savitzky-Golay Filters}
+      \field{year}{2024}
+    \endentry
+    \entry{19}{article}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{title}{Sensor-Based Gym Exercise Recognition}
+      \field{year}{2022}
+    \endentry
+    \entry{13}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5132b04fcfb5fbbe5065a5dc3f9fa565}{%
+           family={Pernek},
+           familyi={P\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{157a8fb98fedfc2f759829e65ba5b44c}
+      \strng{fullhash}{157a8fb98fedfc2f759829e65ba5b44c}
+      \strng{fullhashraw}{157a8fb98fedfc2f759829e65ba5b44c}
+      \strng{bibnamehash}{157a8fb98fedfc2f759829e65ba5b44c}
+      \strng{authorbibnamehash}{157a8fb98fedfc2f759829e65ba5b44c}
+      \strng{authornamehash}{157a8fb98fedfc2f759829e65ba5b44c}
+      \strng{authorfullhash}{157a8fb98fedfc2f759829e65ba5b44c}
+      \strng{authorfullhashraw}{157a8fb98fedfc2f759829e65ba5b44c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biomedical Informatics}
+      \field{title}{Recognizing the intensity of strength training exercises with wearable sensors}
+      \field{year}{2015}
+    \endentry
+    \entry{14}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e4020e61eb113a7bcc1369cfa90eac4f}{%
+           family={Omar},
+           familyi={O\bibinitperiod},
+           given={S.\bibnamedelimi N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=3985f3a4f8a81d853d49e89b17c778ea}{%
+           family={Mohd\bibnamedelima Saad},
+           familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0ba8dfcd46d1a3e234184b4054335a75}{%
+           family={Shair},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=993ab8908c10926dd6b5b920fcbfc9de}{%
+           family={Tengku\bibnamedelima Zawawi},
+           familyi={T\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={T.\bibnamedelimi N.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad85d30948628c163e3bbcb16bcc7f7b}
+      \strng{fullhash}{95688261919d360236cc73c996ad7f2f}
+      \strng{fullhashraw}{95688261919d360236cc73c996ad7f2f}
+      \strng{bibnamehash}{95688261919d360236cc73c996ad7f2f}
+      \strng{authorbibnamehash}{95688261919d360236cc73c996ad7f2f}
+      \strng{authornamehash}{ad85d30948628c163e3bbcb16bcc7f7b}
+      \strng{authorfullhash}{95688261919d360236cc73c996ad7f2f}
+      \strng{authorfullhashraw}{95688261919d360236cc73c996ad7f2f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asian Journal of Medical Technology}
+      \field{number}{1}
+      \field{title}{Application of Digital Signal Processing and Machine Learning for Electromyography}
+      \field{volume}{1}
+      \field{year}{2021}
+      \field{pages}{30\bibrangedash 45}
+      \range{pages}{16}
+    \endentry
+  \enddatalist
+  \missing{22}
+  \missing{23}
+  \missing{24}
+  \missing{source:18}
+  \missing{source:3}
+  \missing{source:4}
+\endrefsection
 \endinput
 
